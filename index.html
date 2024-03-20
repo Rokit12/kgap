@@ -9,6 +9,10 @@
 
     <link rel="stylesheet" href="assets/animate.css" />
     <link rel="stylesheet" href="assets/style.css" />
+
+    <!-- Favicon -->
+    <link href="assets/images/favicon.png" rel="icon" sizes="150x150">
+
   </head>
   <body>
     <div id="fb-root"></div>
@@ -534,7 +538,7 @@
                           >New trends in music</a
                         >
                       </h5>
-                      <small>Posted on: Jan 1, 2014</small>
+                      <small>Posted on: Jan 20, 2024</small>
                       <p>
                         Typewriter photo booth vinyl post-ironic, literally
                         keffiyeh locavore tofu lomo pug Odd Future.
@@ -668,8 +672,8 @@
 
     <!-- Footer Starts -->
     <div id="footer">
-      <div class="container">Copyright 2014 DJ KGAP.</div>
-    </div>
+      <div class="container" id="copyright"></div>
+  </div>
     <!-- # Footer Ends -->
 
     <!-- background slider -->
@@ -699,7 +703,7 @@
 
           <div id="blog">
             <h2>New trends in music</h2>
-            <small>Posted on: Jan 20, 2013</small>
+            <small>Posted on: Jan 20, 2024</small>
 
             <a href="#" class="thumbnail"
               ><img src="assets/images/1.jpg" class="img-reponsive" alt="blog"
@@ -707,22 +711,29 @@
 
             <div class="col-lg-8 col-lg-offset-2">
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                In the ever-evolving landscape of music, trends emerge and fade, reshaping 
+                the industry and the way we experience sound. As we venture into 2024, several 
+                exciting developments are pushing the boundaries of what music means in the digital age. 
+                From innovative AI collaborations to the rise of NFTs (Non-Fungible Tokens), let's delve into 
+                the latest trends shaping the music scene.
               </p>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                <b>AI Collaborations:</b><br>
+                Artificial Intelligence has found its way into various creative fields, including music 
+                production and composition. AI-powered tools and algorithms are now capable of generating melodies, 
+                harmonies, and even entire songs. However, the most intriguing aspect is the collaboration between AI 
+                and human musicians. Artists are embracing AI as a creative partner, using it to explore new sounds, 
+                experiment with genres, and enhance their compositions. This fusion of human creativity and machine 
+                intelligence is redefining the boundaries of musical expression.
               </p>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                <b>NFTs and the Tokenization of Music:</b><br>                
+                Non-Fungible Tokens (NFTs) have taken the art world by storm, offering a new paradigm for 
+                ownership and distribution of digital assets. Now, NFTs are making waves in the music industry, 
+                enabling artists to tokenize their work, sell digital collectibles, and engage directly with fans. 
+                Musicians are minting NFTs for exclusive music releases, concert tickets, and limited-edition merchandise, 
+                creating new revenue streams and fostering deeper connections with their audience. Moreover, NFTs hold the 
+                potential to revolutionize royalty payments, ensuring fair compensation for artists in the digital age.
               </p>
             </div>
           </div>
@@ -751,6 +762,11 @@
       <!-- /.modal-dialog -->
     </div>
     <!-- /.modal -->
+
+    <script>
+      // JavaScript to update the copyright year
+      document.getElementById("copyright").innerHTML = "&copy; " + new Date().getFullYear() + " DJ KGAP.";
+  </script>
 
     <script
       src="http://code.jquery.com/jquery-1.7.1.min.js"
