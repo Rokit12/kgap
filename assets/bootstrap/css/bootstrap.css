@@ -7095,6 +7095,34 @@ td.visible-print {
   display: none !important;
 }
 
+/*******************************/
+/********* Footer CSS *********/
+/*******************************/
+/* #footer {
+  background-color: #f0f0f0; 
+  padding: 10px;
+}
+
+.containerf {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icon {
+  margin-left: 5px; 
+  color: #f0f0f0;
+  font-size: 20px;
+}
+
+.social-icon i {
+  font-size: 20px;
+} */
+
 @media print {
   .visible-print {
     display: block !important;
