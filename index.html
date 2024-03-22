@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="assets/style.css" />
 
     <!-- Favicon -->
-    <link href="assets/images/favicon.png" rel="icon" sizes="150x150">
+    <link href="assets/images/dj.png" rel="icon" sizes="150x150">
 
   </head>
   <body>
@@ -42,7 +42,7 @@
           <div class="container">
             <div class="navbar-header">
               <!-- Logo Starts -->
-              <a class="navbar-brand" href="#home"><img src="assets/images/kGapLogo.png" height="30" alt="logo"/></a>
+              <a class="navbar-brand" href="/index.html"><img src="assets/images/kGapLogo.png" height="30" alt="logo"/></a>
               <!-- #Logo Ends -->
 
               <button
@@ -65,7 +65,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#playlist">Playlist</a></li>
                 <li><a href="#album">Albums</a></li>
-                <li><a href="#shop">Shop</a></li>
+                <li><a href="shop.html">Shop</a></li>
                 <li><a href="#blogevent">Events & Blog</a></li>
                 <li><a href="#contact">Contact</a></li>
               </ul>
@@ -84,9 +84,7 @@
         <div class="row">
           <div class="col-sm-6 col-xs-12">
             <div class="fronttext">
-              <h2 class="bgcolor animated fadeInUpBig">
-                <span class="glyphicon glyphicon-headphones"></span> DJ KGap
-              </h2>
+              <img src="assets/images/kGapLogo.png" height="50" alt="logo"/>
               <br />
               <p class="animated fadeInUp">
                 DJKgap has solidified their reputation as the premier DJ in
@@ -110,8 +108,8 @@
           <div class="col-sm-5 col-xs-12 col-sm-offset-1">
             <div class="player">
               <img
-                src="assets/images/dj.png"
-                class="graphics hidden-xs animated fadeInRightBig"
+                src="assets/images/logobg.png"
+                class="graphics hidden-xs animated fadeInRightBig" height="250"
                 alt="dj"
               />
               <iframe width="100%" height="170" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1761977994&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/djkgap" title="DJKgap" target="_blank" style="color: #cccccc; text-decoration: none;">DJKgap</a> · <a href="https://soundcloud.com/djkgap/rogue-radio-amapiano-mix" title="ROGUE RADIO AMAPIANO MIX" target="_blank" style="color: #cccccc; text-decoration: none;">ROGUE RADIO AMAPIANO MIX</a></div>
@@ -365,18 +363,6 @@
         </div>
         <!-- latest release ends-->
 
-        <!-- latest release starts-->
-        <div id="shop" class="releases spacer">
-          <h3>
-            <span class="glyphicon glyphicon-phone"></span> Contact Me for more info
-          </h3>
-          <div class="row">           
-
-            
-          </div>
-        </div>
-        <!-- latest release ends-->
-
         <!--Blog Event Starts-->
         <div id="blogevent" class="blogevent spacer">
           <div class="row">
@@ -393,7 +379,7 @@
                         <a
                           href="#"
                           data-toggle="modal"
-                          data-target="#blogdetail"
+                          data-target="#blog1"
                           ><img
                             src="assets/images/1.jpg"
                             class="img-responsive"
@@ -405,13 +391,12 @@
                           <a
                             href="#"
                             data-toggle="modal"
-                            data-target="#blogdetail"
+                            data-target="#blog1"
                             >Madaraka Day </a
                           >
                         </h5>
                         <p>
-                           This was infused with music that reflected the nation's spirit, 
-                          resilience, and cultural diversity.
+                          Spinning the Beat: Madaraka Day Celebrations Through the Lens of DJ KGap.
                         </p>
                       </div>
                       <div class="col-xs-12 col-sm-3 col-lg-3 date">
@@ -437,13 +422,12 @@
                           <a
                             href="#"
                             data-toggle="modal"
-                            data-target="#blogdetail"
+                            data-target="#blog2"
                             >Jamhuri Celebration</a
                           >
                         </h5>
                         <p>
-                          Music playlist that set the tone and keep the crowd 
-                          energized throughout the day. 
+                          Celebrating Kenya's Independence Through Music and Unity. 
                         </p>
                       </div>
                       <div class="col-xs-12 col-sm-3 col-lg-3 date">
@@ -469,7 +453,7 @@
                           <a
                             href="#"
                             data-toggle="modal"
-                            data-target="#blogdetail"
+                            data-target="#blog3"
                             >Christmas Day</a
                           >
                         </h5>
@@ -488,7 +472,7 @@
                         <a
                           href="#"
                           data-toggle="modal"
-                          data-target="#blogdetail"
+                          data-target="#blog4"
                           ><img
                             src="assets/images/4.jpg"
                             class="img-responsive"
@@ -500,7 +484,7 @@
                           <a
                             href="#"
                             data-toggle="modal"
-                            data-target="#blogdetail"
+                            data-target="#blog4"
                             >New year Party</a
                           >
                         </h5>
@@ -679,11 +663,16 @@
     <div id="footer">
       <div class="containerf" id="copyright"></div>
       <div class="social-icons">
-        <a href="https://www.facebook.com/djkgap?mibextid=ZbWKwL" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
-        <a href="https://m.twitch.tv/djkgap/clips" target="_blank" class="social-icon"><i class="fab fa-twitch"></i></a>
-        <a href="https://www.youtube.com/channel/UCYD8LUH7gZ0IpidlACOKUIQ" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
-        <a href="https://www.instagram.com/_dj_kgap/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.tiktok.com/@djkgap1" target="_blank" class="social-icon"><i class="fab fa-tiktok"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-youtube"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.facebook.com/djkgap?mibextid=ZbWKwL" target="_blank" class="social-icon"><img src="assets/images/facebook.png" alt="Facebook"></a>
+        <a href="https://m.twitch.tv/djkgap/clips" target="_blank" class="social-icon"><img src="assets/images/twitch.png" alt="Twitch"></a>
+        <a href="https://www.youtube.com/channel/UCYD8LUH7gZ0IpidlACOKUIQ" target="_blank" class="social-icon"><img src="assets/images/youtube.png" alt="YouTube"></a>
+        <a href="https://www.instagram.com/_dj_kgap/" target="_blank" class="social-icon"><img src="assets/images/instagram.png" alt="Instagram"></a>
+        <a href="https://www.tiktok.com/@djkgap1" target="_blank" class="social-icon"><img src="assets/images/tiktok.png" alt="TikTok"></a>
     </div>
   </div>
     <!-- # Footer Ends -->
@@ -943,6 +932,207 @@
       <!-- /.modal-dialog -->
     </div>
     <!-- /.modalBlog 4 -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="blog1" tabindex="-1" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-hidden="true"
+          >
+            &times;
+          </button>
+
+          <div id="blog">
+            <h2>Madaraka Day</h2>
+            <small>Posted on: Jun 01, 2023</small>
+
+            <a href="#" class="thumbnail"
+              ><img src="assets/images/1.jpg" class="img-reponsive" alt="blog"
+            /></a>
+
+            <div class="col-lg-8 col-lg-offset-2">
+              <p>
+                As the sun rises on Madaraka Day, DJs across Kenya are busy preparing for the festivities ahead. 
+                From selecting the perfect playlist to fine-tuning their equipment, there's an air of anticipation 
+                as we gear up to set the stage on fire. But more than just playing music, we see ourselves as custodians 
+                of the celebration, entrusted with the task of creating an atmosphere that resonates with the spirit of Madaraka.
+              </p>
+              <p>
+                <b>Honoring Tradition:</b><br>
+                While we DJs thrive on pushing musical boundaries, we also understand the importance of honoring tradition, 
+                especially on a day as significant as Madaraka Day. That's why our playlists are carefully curated to include a 
+                mix of traditional Kenyan music, from timeless classics to modern interpretations. As the beats of the nyatiti and 
+                the rhythmic chants of traditional dances fill the air, we pay homage to our roots while celebrating how far we've 
+                come as a nation.
+              </p>
+              <p>            
+                As Madaraka Day draws to a close and the last notes fade into the night, we DJs take a moment to reflect on the role we've 
+                played in making the celebration unforgettable. From honoring tradition to embracing innovation, we've woven a musical tapestry 
+                that reflects the spirit of Madaraka - a spirit of freedom, unity, and endless possibility. And as we pack up our gear and bid 
+                farewell to another memorable celebration, we do so with hearts full of gratitude and excitement for the Madaraka Days yet to come.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="blog2" tabindex="-1" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-hidden="true"
+          >
+            &times;
+          </button>
+
+          <div id="blog">
+            <h2>Jamhuri Celebration</h2>
+            <small>Posted on: Dec 12, 2023</small>
+
+            <a href="#" class="thumbnail"
+              ><img src="assets/images/2.jpg" class="img-reponsive" alt="blog"
+            /></a>
+
+            <div class="col-lg-8 col-lg-offset-2">
+              <p>
+                As Kenyans come together to commemorate this historic event, the air is filled with a 
+                sense of pride, patriotism, and celebration. Join me on a journey through the sights 
+                and sounds of Jamhuri Day, where music takes center stage in honoring Kenya's independence 
+                and fostering unity among its people.
+              </p>
+              <p>
+                <b>Infusing Modern Beats:</b><br>
+                But Madaraka Day isn't just about looking back; it's also about embracing the present and looking 
+                towards the future. That's where modern beats come into play. From afro-pop anthems to the latest 
+                bongo hits, we DJs bring a contemporary flair to the festivities, keeping the crowds grooving 
+                well into the night. 
+              </p>
+              <p>            
+                Jamhuri Day is more than just a public holiday; it's a testament to the strength, resilience, and unity of the Kenyan 
+                people. Through music, culture, and community, we come together to celebrate our shared history and reaffirm our commitment 
+                to building a brighter future for generations to come. As the echoes of celebration fade into the night, the spirit of 
+                Jamhuri Day lives on, inspiring us to strive for a Kenya that is truly free, united, and prosperous.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+     <!-- Modal -->
+     <div class="modal fade" id="blog3" tabindex="-1" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-hidden="true"
+          >
+            &times;
+          </button>
+
+          <div id="blog">
+            <h2>Christmas Day</h2>
+            <small>Posted on: Dec 12, 2023</small>
+
+            <a href="#" class="thumbnail"
+              ><img src="assets/images/3.jpg" class="img-reponsive" alt="blog"
+            /></a>
+
+            <div class="col-lg-8 col-lg-offset-2">
+              <p>
+                As Kenyans come together to commemorate this historic event, the air is filled with a 
+                sense of pride, patriotism, and celebration. Join me on a journey through the sights 
+                and sounds of Jamhuri Day, where music takes center stage in honoring Kenya's independence 
+                and fostering unity among its people.
+              </p>
+              <p>
+                <b>Infusing Modern Beats:</b><br>
+                But Madaraka Day isn't just about looking back; it's also about embracing the present and looking 
+                towards the future. That's where modern beats come into play. From afro-pop anthems to the latest 
+                bongo hits, we DJs bring a contemporary flair to the festivities, keeping the crowds grooving 
+                well into the night. 
+              </p>
+              <p>            
+                Jamhuri Day is more than just a public holiday; it's a testament to the strength, resilience, and unity of the Kenyan 
+                people. Through music, culture, and community, we come together to celebrate our shared history and reaffirm our commitment 
+                to building a brighter future for generations to come. As the echoes of celebration fade into the night, the spirit of 
+                Jamhuri Day lives on, inspiring us to strive for a Kenya that is truly free, united, and prosperous.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="blog4" tabindex="-1" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-hidden="true"
+          >
+            &times;
+          </button>
+
+          <div id="blog">
+            <h2>New year Party</h2>
+            <small>Posted on: Jan 01, 2024</small>
+
+            <a href="#" class="thumbnail"
+              ><img src="assets/images/4.jpg" class="img-reponsive" alt="blog"
+            /></a>
+
+            <div class="col-lg-8 col-lg-offset-2">
+              <p>
+                As Kenyans come together to commemorate this historic event, the air is filled with a 
+                sense of pride, patriotism, and celebration. Join me on a journey through the sights 
+                and sounds of Jamhuri Day, where music takes center stage in honoring Kenya's independence 
+                and fostering unity among its people.
+              </p>
+              <p>
+                <b>Infusing Modern Beats:</b><br>
+                But Madaraka Day isn't just about looking back; it's also about embracing the present and looking 
+                towards the future. That's where modern beats come into play. From afro-pop anthems to the latest 
+                bongo hits, we DJs bring a contemporary flair to the festivities, keeping the crowds grooving 
+                well into the night. 
+              </p>
+              <p>            
+                Jamhuri Day is more than just a public holiday; it's a testament to the strength, resilience, and unity of the Kenyan 
+                people. Through music, culture, and community, we come together to celebrate our shared history and reaffirm our commitment 
+                to building a brighter future for generations to come. As the echoes of celebration fade into the night, the spirit of 
+                Jamhuri Day lives on, inspiring us to strive for a Kenya that is truly free, united, and prosperous.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
 
     <!-- Modal -->
     <div class="modal fade" id="albumdetail" tabindex="-1" role="dialog">
