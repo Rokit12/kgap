@@ -13,9 +13,7 @@
 
 });
 
-
-
-  // animation
+// animation
 $(window).scroll(function() {
     $('#about,.album,.blogevent ul li').each(function(){
     var elementPos = $(this).offset().top;
