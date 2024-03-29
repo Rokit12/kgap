@@ -123,8 +123,9 @@
       <!-- blockblack -->
       <div class="blockblack">
         <!-- About Starts -->
-        <div id="about" class="spacer">
-          <h3><span class="glyphicon glyphicon-user"></span> About Me</h3>
+        <section id="about" >
+        <div class="spacer">
+          <p style="font-size: 28px; margin-bottom: 20px;color: #666;"><span class="glyphicon glyphicon-user"></span> About Me</p>
           <div class="row">
             <div class="col-lg-4 col-sm-4 col-xs-12">
               <img
@@ -167,14 +168,15 @@
               ></div>
             </div>
           </div>
-        </div>
+          </div>
+        </section>
         <!-- About Ends -->
 
         <!-- playlist Starts -->
         <div id="playlist" class="spacer">
           <div class="row">
             <div class="col-md-12 col-xs-12">
-              <h3><span class="glyphicon glyphicon-list"></span> Playlist</h3>
+              <p style="font-size: 28px; margin-bottom: 20px;color: #666;"><span class="glyphicon glyphicon-list"></span> Playlist</p>
               <iframe
                 width="100%"
                 height="600"
@@ -189,9 +191,7 @@
 
         <!-- latest release starts-->
         <div id="album" class="releases spacer">
-          <h3>
-            <span class="glyphicon glyphicon-music"></span> Album Releases
-          </h3>
+          <p style="font-size: 28px; margin-bottom: 20px;color: #666;" ><span class="glyphicon glyphicon-music"></span> Album Releases</p>
           <div class="row">
             <div class="col-sm-3 col-xs-12">
               <div class="album">
@@ -370,9 +370,7 @@
             <!-- events -->
             <div class="col-md-6 col-xs-12">
               <div class="events">
-                <h3>
-                  <span class="glyphicon glyphicon-calendar"></span> Events
-                </h3>
+                <p style="font-size: 28px; margin-bottom: 20px;color: #666;"><span class="glyphicon glyphicon-calendar"></span> Events</p>
                 <ul>
                   <li>
                     <div class="row">
@@ -506,7 +504,7 @@
             <!-- blog -->
             <div class="col-md-5 col-md-offset-1 col-xs-12">
               <div class="ourblog">
-                <h3><span class="glyphicon glyphicon-book"></span> Blog</h3>
+                <p style="font-size: 28px; margin-bottom: 20px;color: #666;"><span class="glyphicon glyphicon-book"></span> Blog</p>
                 <ul class="row">
                   <li class="row">
                     <a
@@ -627,10 +625,10 @@
         <!--Contact Starts-->
         <div id="contact" class="spacer">
           <div class="contactform center">
-            <h3><span class="glyphicon glyphicon-envelope"></span> Contact</h3>
+            <p style="font-size: 28px; margin-bottom: 20px;color: #666;"><span class="glyphicon glyphicon-envelope"></span> Contact</p>
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
-                <h4>Get in touch or<br /><b>Just say Hello!</b></h4>
+                <p style="font-size: 28px; margin-bottom: 20px;color: #666;"> Get in touch or<br /><b>Just say Hello!</b></p>
                 <input type="text" placeholder="Name" />
                 <input type="text" placeholder="Email" />
                 <textarea rows="5" placeholder="Message"></textarea>
@@ -664,12 +662,12 @@
     <div id="footer">
       <div class="containerf" id="copyright"></div>
       <div class="social-icons">
-        <a href=""><i class="fab fa-twitter"></i></a>
-                                        <a href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a href=""><i class="fab fa-youtube"></i></a>
-                                        <a href=""><i class="fab fa-instagram"></i></a>
-                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://www.facebook.com/djkgap?mibextid=ZbWKwL" target="_blank" class="social-icon"><img src="assets/images/facebook.png" alt="Facebook"></a>
+        <!-- <a href=""><i class="fab fa-twitter"></i></a>
+        <i class="fab fa-facebook-square"></i>
+        <a href=""><i class="fab fa-youtube"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-linkedin-in"></i></a> -->
+        <a href="https://www.facebook.com/djkgap?mibextid=ZbWKwL" target="_blank" class="social-icon"><img src="assets/images/fb.png" alt="Facebook"></a>
         <a href="https://m.twitch.tv/djkgap/clips" target="_blank" class="social-icon"><img src="assets/images/twitch.png" alt="Twitch"></a>
         <a href="https://www.youtube.com/channel/UCYD8LUH7gZ0IpidlACOKUIQ" target="_blank" class="social-icon"><img src="assets/images/youtube.png" alt="YouTube"></a>
         <a href="https://www.instagram.com/_dj_kgap/" target="_blank" class="social-icon"><img src="assets/images/instagram.png" alt="Instagram"></a>
@@ -1169,47 +1167,6 @@
       type="text/javascript"
     ></script>
     <script src="assets/scripts/plugins.js" type="text/javascript"></script>
-    <Script>
-        $(document).ready(function() {
-        $('.carousel').carousel({
-            interval: 5000
-        }); 
-        $('.carousel').carousel('cycle');
-    
-   $('#top-nav').onePageNav({
-                 currentClass: 'active',
-                 changeHash: true,
-                 scrollSpeed: 500
-            });
-
-
-});
-
-// animation
-$(window).scroll(function() {
-    $('#about,.album,.blogevent ul li').each(function(){
-    var elementPos = $(this).offset().top;
-
-    var topOfWindow = $(window).scrollTop();
-      if (elementPos < topOfWindow+400) {
-        $(this).addClass("animated fadeInUp");
-      }
-    });
-
-
-    $('h3,h4').each(function(){
-    var elementPos = $(this).offset().top;
-
-    var topOfWindow = $(window).scrollTop();
-      if (elementPos < topOfWindow+500) {
-        $(this).addClass("animated fadeInUp");
-      }
-    });
-
-
-  });
-
-    </Script>
-    <!-- <script src="assets/scripts/script.js" type="text/javascript"></script> -->
+    <script src="assets/scripts/script.js" type="text/javascript"></script>
   </body>
 </html>
