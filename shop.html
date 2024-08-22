@@ -3,10 +3,10 @@
   <head>
     <title>DJ KGap | Shop</title>
     <meta charset="UTF-8" />
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-0P1FFB2qIYDi6ZNRZ5P/v4CvN0eE4/M5qVrN7aDZGLtOluEJKKeJb6A8rbdeCUxQ" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" />
     <!-- boostrap -->
 
     <link rel="stylesheet" href="assets/animate.css" />
@@ -16,6 +16,8 @@
     <link href="assets/images/dj.png" rel="icon" sizes="150x150">
 
   </head>
+
+    
   <body>
     <div id="fb-root"></div>
     <script>
@@ -61,16 +63,18 @@
             <!-- Nav Starts -->
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#playlist">Playlist</a></li>
-                <li><a href="#album">Albums</a></li>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about-to">About</a></li>
+                <li><a href="index.html#playlist">Playlist</a></li>
+                <li><a href="index.html#album">Albums</a></li>
                 <li class="active"><a href="shop.html">Shop</a></li>
-                <li><a href="#blogevent">Events & Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="index.html#blogevent">Events & Blog</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
               </ul>
             </div>
             <!-- #Nav Ends -->
+
+            
           </div>
         </div>
       </div>
@@ -185,24 +189,20 @@
     <div id="footer">
       <div class="containerf" id="copyright"></div>
       <div class="social-icons">
-        <a href=""><i class="fab fa-twitter"></i></a>
-                                        <a href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a href=""><i class="fab fa-youtube"></i></a>
-                                        <a href=""><i class="fab fa-instagram"></i></a>
-                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://www.facebook.com/djkgap?mibextid=ZbWKwL" target="_blank" class="social-icon"><img src="assets/images/facebook.png" alt="Facebook"></a>
+        <a href="https://www.facebook.com/djkgap?mibextid=ZbWKwL" target="_blank" class="social-icon"><img src="assets/images/fb.png" alt="Facebook"></a>
         <a href="https://m.twitch.tv/djkgap/clips" target="_blank" class="social-icon"><img src="assets/images/twitch.png" alt="Twitch"></a>
         <a href="https://www.youtube.com/channel/UCYD8LUH7gZ0IpidlACOKUIQ" target="_blank" class="social-icon"><img src="assets/images/youtube.png" alt="YouTube"></a>
         <a href="https://www.instagram.com/_dj_kgap/" target="_blank" class="social-icon"><img src="assets/images/instagram.png" alt="Instagram"></a>
         <a href="https://www.tiktok.com/@djkgap1" target="_blank" class="social-icon"><img src="assets/images/tiktok.png" alt="TikTok"></a>
     </div>
   </div>
-    <!-- # Footer Ends -->
+    <!-- Footer Ends -->
 
     <script>
       document.querySelectorAll('.add-to-cart').forEach(button => {
       button.addEventListener('click', () => {
-      // Assuming here you have a function addToCart(productId) to handle adding the product to the cart
+      
+      
       addToCart(button.parentElement.querySelector('h3').textContent);
       alert('Product added to cart!');
         });
@@ -215,55 +215,15 @@
   </script>
 
     <script
-      src="http://code.jquery.com/jquery-1.7.1.min.js"
-      type="text/javascript"
-    ></script>
+      src="https://code.jquery.com/jquery-1.7.1.min.js"
+      type="text/javascript">
+    </script>
     <!-- boostrap -->
     <script
       src="assets/bootstrap/js/bootstrap.js"
       type="text/javascript"
     ></script>
     <script src="assets/scripts/plugins.js" type="text/javascript"></script>
-    <script>
-        $(document).ready(function() {
-        $('.carousel').carousel({
-            interval: 5000
-        }); 
-        $('.carousel').carousel('cycle');
-    
-   $('#top-nav').onePageNav({
-                 currentClass: 'active',
-                 changeHash: true,
-                 scrollSpeed: 500
-            });
-
-
-});
-
-// animation
-$(window).scroll(function() {
-    $('#about,.album,.blogevent ul li').each(function(){
-    var elementPos = $(this).offset().top;
-
-    var topOfWindow = $(window).scrollTop();
-      if (elementPos < topOfWindow+400) {
-        $(this).addClass("animated fadeInUp");
-      }
-    });
-
-
-    $('h3,h4').each(function(){
-    var elementPos = $(this).offset().top;
-
-    var topOfWindow = $(window).scrollTop();
-      if (elementPos < topOfWindow+500) {
-        $(this).addClass("animated fadeInUp");
-      }
-    });
-
-
-  });
-    </script>
-    <!-- <script src="assets/scripts/script.js" type="text/javascript"></script> -->
+    <script src="assets/scripts/script.js" type="text/javascript"></script>
   </body>
 </html>
