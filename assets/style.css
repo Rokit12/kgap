@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Carrois+Gothic|Francois+One);
+@import url(https://fonts.googleapis.com/css?family=Carrois+Gothic|Francois+One);
 
 body {font:normal 16px/22px 'Carrois Gothic',Arial,Helvetica;	background:#111;color: #ccc;}
 
@@ -181,9 +181,12 @@ button.close{position: absolute;right: 0;background: #FFF;width: 25px;height: 25
 }
 
 /*******************************/
-/********* Footer CSS *********/
+/********* Footer CSS **********/
 /*******************************/
 #footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #000; 
     padding: 5px 0; 
     color: #fff; 
@@ -191,7 +194,8 @@ button.close{position: absolute;right: 0;background: #FFF;width: 25px;height: 25
     color: #aaa;
     margin-top: 50px; 
     z-index: 100;
-    position: relative;}
+    position: relative;
+  }
 
 .containerf {
   display: flex;
@@ -226,7 +230,7 @@ button.close{position: absolute;right: 0;background: #FFF;width: 25px;height: 25
 /*background slider*/
 
 /*animation*/
-#about,.album,.blogevent ul li,h3,h4{visibility: visible;}
+#about,.album,.blogevent {visibility: visible;}
 .animated{visibility: visible !important;}
 /*animation*/
 
