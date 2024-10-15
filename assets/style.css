@@ -183,24 +183,25 @@ button.close{position: absolute;right: 0;background: #FFF;width: 25px;height: 25
 /*******************************/
 /********* Footer CSS **********/
 /*******************************/
-#footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #000; 
-    padding: 5px 0; 
-    color: #fff; 
-    font-size: 14px;
-    color: #aaa;
-    margin-top: 50px; 
-    z-index: 100;
-    position: relative;
-  }
+#footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000; 
+  padding: 5px 0; 
+  color: #fff; 
+  font-size: 14px;
+  color: #aaa;
+  margin-top: 50px; 
+  z-index: 100;
+  position: relative;
+}
 
 .containerf {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap; /* Allow items to wrap */
 }
 
 .social-icons {
@@ -215,6 +216,24 @@ button.close{position: absolute;right: 0;background: #FFF;width: 25px;height: 25
 
 .social-icon i {
   font-size: 20px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  #footer {
+      flex-direction: column; /* Stack items vertically */
+      align-items: flex-start; /* Align items to the start */
+  }
+
+  .containerf {
+      flex-direction: column; /* Stack container items */
+      width: 100%; /* Ensure full width */
+  }
+
+  .social-icons {
+      margin-top: 10px; /* Add some space above social icons */
+      justify-content: flex-start; /* Align social icons to the start */
+  }
 }
 
 /*background slider*/
